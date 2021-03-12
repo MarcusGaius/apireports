@@ -1,5 +1,5 @@
 {
-    "name": "mdsoft/apireports",
+    "name": "marcusgaius/apireports",
     "description": "Google/YouTube Analytics API report toolkit.",
     "type": "library",
     "license": "MIT",
@@ -12,7 +12,12 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "MDSoft\\ApiReports\\": "src/"
+            "MarcusGaius\\ApiReports\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MarcusGaius\\ApiReports\\Tests\\": "tests/"
         }
     },
     "require-dev": {
@@ -22,5 +27,12 @@
     },
     "require": {
         "google/apiclient": "2.x-dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MarcusGaius\\ApiReports\\ApiReportsServiceProvider"
+            ]
+        }
     }
 }
