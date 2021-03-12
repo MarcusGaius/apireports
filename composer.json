@@ -26,7 +26,7 @@
         "barryvdh/laravel-ide-helper": "2.9.x-dev"
     },
     "require": {
-        "google/apiclient": "2.x-dev"
+        "google/apiclient": "^2.9.1"
     },
     "extra": {
         "laravel": {

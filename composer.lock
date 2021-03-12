@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "72b68b8c5e4d07efd5e2dd51f753e55b",
+    "content-hash": "62079d40a6496d03c5d3fe8f3e74be2e",
     "packages": [
         {
             "name": "firebase/php-jwt",
@@ -9330,7 +9330,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "google/apiclient": 20,
         "orchestra/testbench": 20,
         "barryvdh/laravel-debugbar": 20,
         "barryvdh/laravel-ide-helper": 20

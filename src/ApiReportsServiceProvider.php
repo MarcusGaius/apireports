@@ -19,7 +19,7 @@ class ApiReportsServiceProvider extends ServiceProvider
 
     private function registerResources()
     {
-        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-        $this->loadRoutesFrom(__DIR__.'/../routes');
+        // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+        $this->loadRoutesFrom(__DIR__.'\..\routes\web.php');
     }
 }
