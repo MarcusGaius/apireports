@@ -1,0 +1,26 @@
+{
+    "name": "mdsoft/apireports",
+    "description": "Google/YouTube Analytics API report toolkit.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MarcusGaius",
+            "email": "metalmorgoth@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "MDSoft\\ApiReports\\": "src/"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "9999999-dev",
+        "barryvdh/laravel-debugbar": "3.5.x-dev",
+        "barryvdh/laravel-ide-helper": "2.9.x-dev"
+    },
+    "require": {
+        "google/apiclient": "2.x-dev"
+    }
+}
