@@ -8,3 +8,5 @@ Route::group(['prefix' => 'auth', 'as' => 'auth.'], function () {
     Route::get('code', [GoogleAuthController::class, 'code'])->name('code');
     Route::get('retrieve', [GoogleAuthController::class, 'retrieve'])->name('retrieve');
 });
+
+
